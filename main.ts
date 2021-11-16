@@ -37,10 +37,10 @@ let facingLeft = 0
 let isAttacking = 0
 let playerThing: Sprite = null
 scene.setBackgroundColor(15)
-playerThing = sprites.create(assets.image`guy`, SpriteKind.Player)
-scene.setBackgroundColor(12)
-playerThing.setBounceOnWall(true)
 game.showLongText("Welcome to Hell. Press A to attack. Or press B to die.", DialogLayout.Bottom)
+playerThing = sprites.create(assets.image`guy`, SpriteKind.Player)
+scene.setBackgroundImage(assets.image`Background`)
 info.setLife(3)
+playerThing.setBounceOnWall(true)
 controller.moveSprite(playerThing)
 music.playMelody("C C D E D D G A ", 148)
