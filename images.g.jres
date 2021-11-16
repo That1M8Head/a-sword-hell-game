@@ -1,0 +1,27 @@
+{
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAsAsAsAsAuwuwALC7AAC7u7u7uwAAALsLCwCwuwAAAAALAACwCwAAsAsAAAAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "guy"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAALAAAAAAAAsAsAsAsAuwuwALC7AAC7u7u7uwAAALsLCwCwuwAAAADrAACwCwAADu4AAAAAAADuDgAAAAAAAOvuAAAAAACwu+AAAAAAALsLAAAAAAAAuwAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "guyWithASword"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAuwAAAAAAAAC7CwAAAAAAALC74AAAAAAAAOvuAAAAAAAA7g4AAAAAAAAO7gAAAAAAAADrAACwCwC7CwsAsLsAALu7u7u7AAAAuwuwALC7AAAAALALALALAAAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "guyWithASword2"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAsAAAAAAAAACwCwAAAAAAAAALAACwCwC7CwsAsLsAALu7u7u7AAAAuwuwALC7AAAAALALALALAAAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "guy2"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
