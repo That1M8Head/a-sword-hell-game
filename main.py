@@ -17,6 +17,13 @@ def on_a_pressed():
     """))
 controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
 
+def on_left_pressed():
+    if not (isAttacking):
+        playerThing.set_image(assets.image("""
+            guy2
+        """))
+controller.left.on_event(ControllerButtonEvent.PRESSED, on_left_pressed)
+
 isAttacking = 0
 playerThing: Sprite = None
 scene.set_background_color(15)
@@ -32,14 +39,5 @@ music.play_melody("C C D E D D G A ", 148)
 
 def on_forever():
     if not (isAttacking):
-        if controller.left.is_pressed():
-            playerThing.set_image(assets.image("""
-                guy2
-            """))
-        else:
-            playerThing.set_image(assets.image("""
-                guy
-            """))
+        pass
 forever(on_forever)
-while True:
-    print("a")
